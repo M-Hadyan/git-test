@@ -19,6 +19,27 @@
     </head>
 
     <body>
+
+        <!-- start::Navbar-->
+        <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+            <div class="container">
+                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#Navbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto p-10" href="/index.html"> Hadyans Restaurant</a>
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item "><a class="nav-link" href="/index.html">Home</a></li>
+                        <li class="nav-item active"><a class="nav-link" href="/templates/about.html">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/index.html">Menu</a></li>
+                        <li class="nav-item"><a class="nav-link" href="/index.html">Contact</a></li>
+    
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End::Navbar-->
+
         <!-- Strat::header -->
         <header class="jumbotron">
             <div class="container">
@@ -34,7 +55,12 @@
 
         <!-- Strat::content -->
         <div class="container">
+            <ol class="col-12 breadcrumb">
+                <li class="breadcrumb-item"><a href="/index.html">Home</a></li>
+                <li class="breadcrumb-item active">About Us</li>
+            </ol>
             <div class="row row-title">
+               
                 <div class="col-6 col-sm-6 order-sm-first col-md-6">
                     <h3>About</h3>
                 </div>
@@ -125,18 +151,9 @@
         </footer>
         <!-- End::footer -->
 
-
-
-
-
         <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-        <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
-        <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
-        <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-
-
+        <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+        <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+        <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
     </body>
-
-    
-
 </html>
