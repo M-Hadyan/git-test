@@ -53,8 +53,11 @@
                     <h1>Mohammed Bin Hadyan</h1>
                     <p>This website created by Mohammed Bin-Hadyan</p>
                    </div>
-                   <div class="col-12 col-sm align-self-center">
+                   <div class="col-12 col-sm-3 align-self-center">
                         <img src="/images/logo.png"  height="100">
+                    </div>
+                    <div class="col-12 col-sm align-self-center">
+                        <a class="btn btn-warning btn-lg btn-block" href="#card">Reserve Table</a> 
                     </div>
                 </div>
 
@@ -83,15 +86,16 @@
 
             <div class="row row-content align-items-center"">
                 <div class="col-12 col-sm-4 col-md-3">
-                    <h3>In the previous lectures,</h3>
+                    <h3>This month's Promotions </h3>
                 </div>
                 <div class="col col-sm col-md">
                     <div class="media">
-                        <img class="d-flex mr-3 img-thumbnail align-self-center" src="/images/logo128.png"   alt="like">
+                        
                         <div class="media-body">
-                            <h3 class="mt-0">Bootstrap</h3>
+                            <h3 class="mt-0">Weekend Grand Buffer <span class="badge badge-danger">NEW</span></h3>
                             <p>we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.</p> 
                         </div>
+                        <img class="d-flex ml-3 img-thumbnail align-self-center" src="/images/logo128.png"   alt="like">
                     
                     </div>
                    
@@ -111,6 +115,81 @@
                         </div>
                     
                     </div>
+                </div>
+            </div>
+
+            <div class="row row-content" id="card">
+                <div class="col-12  col-md-2">
+
+                </div>
+                <div class="col-12  col-md-8">
+                    <div class="card" >
+                        <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
+                        <div class="card-body">
+                            <form>
+                                <div class="form-group row">                        
+                                    <div class="col-md-2 ">
+                                            
+                                        <label for="numofguests"> Number of Guests</label>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                                            <label class="form-check-label" for="inlineRadio1">1</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                                            <label class="form-check-label" for="inlineRadio2">2</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+                                            <label class="form-check-label" for="inlineRadio2">3</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+                                            <label class="form-check-label" for="inlineRadio2">4</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio5" value="option5">
+                                            <label class="form-check-label" for="inlineRadio2">5</label>
+                                          </div>
+                                          <div class="form-check form-check-inline">
+                                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio6" value="option6" >
+                                            <label class="form-check-label" for="inlineRadio3">6</label>
+                                          </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <label for="todate" class="col-12 col-md-2 col-form-label">Date and Time:</label>
+                                    <div class="col-6 col-md-5">
+                                        <input type="text" class="form-control" id="todate" name="todate" placeholder="Date">
+                                    </div>
+                                    <div class="col-3 col-md-5">
+                                        <input type="text" class="form-control" id="totime" name="phonenumber" placeholder="Time">
+                                    </div>
+                                </div>
+
+                                <div class="form-group row">
+                                    <div class="col-md-10 offset-md-2">
+                                        <button type="submit" class="btn btn-primary">
+                                            Reserve
+                                        </button>
+                                        <button type="reset" class="btn btn-outline-secondary">
+                                            Cancel
+                                        </button>
+                                    </div>
+            
+                                   
+                                </div>
+
+                                
+
+        
+                            </form>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
