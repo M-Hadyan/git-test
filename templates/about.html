@@ -9,9 +9,9 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../node_modules/bootstrap-social/bootstrap-social.css">
 
     <!-- custom style-->
     <link rel="stylesheet" href="/css/style.css">
@@ -25,7 +25,7 @@
         <!-- start::Navbar-->
         <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
             <div class="container">
-                <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#Navbar">
+                <button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#Navbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <a class="navbar-brand mr-auto p-10" href="/index.html"> <img src="/images/logo.png"  height="30"></a>
@@ -117,22 +117,86 @@
             <div class="row row-content ">
                 <div class="col-12 col-sm-12 order-sm-first col-md-12">
                     <h3>Corporate Leadership</h3>
+                    <div id="accordon">
+                        <div class="card">
+                            <div class="card-header" role="tab" id="peterhead">
+                            <h3 class="mb-0">
+                                <a data-toggle="collapse" data-target="#peter">
+                                    Mohammed Bin Hadyan <small>Founder - CEO </small>
+                                </a>
+                            </h3>
+                            </div>
+                            <div class="collapse show" id="peter" data-parent="#accordion">
+                                <div class="card-body">
+                                    <p class="d-none d-sm-block">we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
+                                        we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header" role="tab" id="dannyhead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#danny">
+                                    <h3>Abdulrahman Bin Hadyan <small>CTO</small></h3>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="danny" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
+                                    we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header" role="tab" id="agumbehead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#agumbe">
+                                    <h3>Nawaf Bin Hadyan <small>CFO</small></h3>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="agumbe" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
+                                    we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card">
+                            <div class="card-header" role="tab" id="albertohead">
+                            <h3 class="mb-0">
+                                <a class="collapsed" data-toggle="collapse" data-target="#alberto">
+                                    <h3>Khalid Bin Hadyan <small>COO</small> </h3>
+                                </a>
+                            </h3>
+                        </div>
+                        <div class="collapse" id="alberto" data-parent="#accordion">
+                            <div class="card-body">
+                                <p class="d-none d-sm-block">we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
+                                    we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-                    <ul class="nav nav-tabs">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="#mohammed" role="tab" data-toggle="tab">Mohammed Hadyan,Founder - CEO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#abdulrahman" role="tab" data-toggle="tab">Abdulrahman Hadyan,Founder - CTO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#nawaf" role="tab" data-toggle="tab">Nawaf Hadyan,Founder - CFO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#khalid" role="tab" data-toggle="tab">Khalid Hadyan,Founder - COO</a>
-                        </li>
-                       
-                    </ul>
+<!--                     
+                        <div class="card">
+                            <div class="card-header" role="tab" id="mohammed">
+                                <h3 class="mb-0">
+                                    <a data-toggle="collapse" data-target="#mohammed">
+                                      
+                                    </a>
+                                </h3>
+
+                            </div>
+
+                        </div> -->
+                    </div>
+        <!----
 
                     <div class="tab-content">
 
@@ -161,7 +225,7 @@
                                 we have learnt about responsive design and the bootstrap grid system. We have seen how the bootstrap grid allows us to design responsive websites. It's time for us to move onto the next exercise.
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="row row-content">
