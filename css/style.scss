@@ -74,3 +74,26 @@ body{
     bottom: 0px;
     z-index: 1;
 }
+
+.modal-content .modal-header{
+    
+    background-color: #512DA8;
+    color: #fff;   
+  }
+  .modal-content .modal-header .close{
+
+    color: #fff;   
+  }
+
+  
+// new style added for modal header, modal body and close button  
+.modal-header{
+    background: $hd-backgorund;
+
+    .modal-title, .close{
+        color: #fff;
+    }
+}
+.modal-body{
+    background: $bd-background;
+}
